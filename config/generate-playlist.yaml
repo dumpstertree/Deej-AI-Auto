@@ -1,0 +1,6 @@
+playlist_a:
+  base: 			# string: 	path to song relative to volume
+  noise: 			# float: 	randomness in selection
+  numOfSongs:			# int: 		number of songs in playlist
+  lookback:			# int:		number of previous songs to compare to when picking song
+
