@@ -1,5 +1,5 @@
 echo Beginning Scan...
-python /Deej-AI-Auto/MP3toVec.py data mp3tovec --scan /Deej-AI-Auto/library
+python /Deej-AI-Auto/MP3ToVec.py data mp3tovec --scan /Deej-AI-Auto/library
 echo Scan Complete!
 echo Beginning Playlist Generation...
 python /Deej-AI-Auto/Deej-A.I.py data mp3tovec --playlist /Deep-AI-Auto/output/playlist_a.m3u --nsongs 10 --lookback 10 --inputsong /Deej-AI-Auto/library/test0.mp3
