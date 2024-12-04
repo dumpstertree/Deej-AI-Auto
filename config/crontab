@@ -1,1 +1,1 @@
-*/2 * * * * root /Deej-AI-Auto/config/generate.sh
+*/2 * * * * root echo Scheduled Generation && /Deej-AI-Auto/config/generate.sh
